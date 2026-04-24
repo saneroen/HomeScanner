@@ -13,3 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Local/dev artifacts
+.expo/
+.idea/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Backend local env and caches
+backend-api/.env
+backend-api/.expo/
+backend-api/.venv/
+backend-api/app/__pycache__/
+backend-api/app/services/__pycache__/
