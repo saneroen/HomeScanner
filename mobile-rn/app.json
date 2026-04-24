@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "HomeScanner Mobile",
+    "slug": "homescanner-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.nighthawklabs.homescanner.mobile"
+    },
+    "android": {
+      "package": "org.nighthawklabs.homescanner.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      },
+      "apiBaseUrl": "https://api.example.com"
+    },
+    "owner": "REPLACE_WITH_EXPO_ACCOUNT",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "mobile-rn",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "eas:build:android:dev": "npx eas build --platform android --profile development",
+    "eas:build:android:preview": "npx eas build --platform android --profile preview",
+    "eas:build:android:prod": "npx eas build --platform android --profile production",
+    "eas:build:ios:dev": "npx eas build --platform ios --profile development",
+    "eas:build:ios:preview": "npx eas build --platform ios --profile preview",
+    "eas:build:ios:prod": "npx eas build --platform ios --profile production",
+    "eas:submit:ios": "npx eas submit --platform ios",
+    "eas:submit:android": "npx eas submit --platform android"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "@react-navigation/bottom-tabs": "^7.15.9",
+    "@react-navigation/native": "^7.2.2",
+    "@react-navigation/native-stack": "^7.14.11",
+    "@tanstack/react-query": "^5.99.0",
+    "axios": "^1.15.0",
+    "expo": "~54.0.33",
+    "expo-camera": "~17.0.10",
+    "expo-file-system": "~19.0.21",
+    "expo-image-picker": "~17.0.10",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
